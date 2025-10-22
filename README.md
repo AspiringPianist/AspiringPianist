@@ -1,11 +1,13 @@
 <h1 align="center">Hi 👋, I'm Unnath Chittimalla</h1>
 <h3 align="center">A passionate developer currently curious about LLMs, ML/Statistics, GameDev and Electronics!</h3>
 
-- 🔭 I’m currently working on [making youtube videos on whatever i learn!](https://www.youtube.com/@NotDefinitelyNotMe)
+- 🔭 I’m currently working on stealth startup and [making youtube videos on whatever i learn!](https://www.youtube.com/@NotDefinitelyNotMe)
 
 - 🌱 I’m currently learning **Machine Learning, Electronics**
 
 - 📫 How to reach me **unnath.chittimalla@iiitb.ac.in**
+  
+-  📫 Currently app dev with 5k+ downloads on playstore (stealth startup)
 
 <h3 align="left">Connect with me:</h3>
 <p align="left">
