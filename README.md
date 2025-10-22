@@ -1,15 +1,11 @@
 <h1 align="center">Hi 👋, I'm Unnath Chittimalla</h1>
-<h3 align="center">A passionate developer currently curious about LLMs, ML, Langchain, GameDev and Electronics!</h3>
+<h3 align="center">A passionate developer currently curious about LLMs, ML/Statistics, GameDev and Electronics!</h3>
 
 - 🔭 I’m currently working on [making youtube videos on whatever i learn!](https://www.youtube.com/@NotDefinitelyNotMe)
 
-- 🌱 I’m currently learning **Langchain, Electronics**
-
-- 💬 Ask me about **RAG Chatbot Systems, streamlit, Image model fine-tuning, Langchain, Prompt Engineering.**
+- 🌱 I’m currently learning **Machine Learning, Electronics**
 
 - 📫 How to reach me **unnath.chittimalla@iiitb.ac.in**
-
-- ⚡ Fun fact **Ideas need not come about when there is a need, they are a result of random cumulative thoughts!**
 
 <h3 align="left">Connect with me:</h3>
 <p align="left">
