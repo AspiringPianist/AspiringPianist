@@ -7,7 +7,7 @@
 
 - 📫 How to reach me **unnath.chittimalla@iiitb.ac.in**
   
--  📫 Currently app dev with 5k+ downloads on playstore (stealth startup)
+-  📫 Currently app dev with 10k+ downloads on playstore (stealth startup)
 
 <h3 align="left">Connect with me:</h3>
 <p align="left">
