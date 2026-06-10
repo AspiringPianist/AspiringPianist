@@ -1,7 +1,7 @@
 <h1 align="center">Hi, I'm Unnath Chittimalla</h1>
 <h3 align="center">A passionate developer currently curious about Electronics, ML/Statistics and GameDev!</h3>
 
-- AppDev @ [GoalGuard](https://goal-guard.vercel.app/) (10k+ Downloads) and [making youtube videos on whatever i learn!](https://www.youtube.com/@NotDefinitelyNotMe)
+- CoFounder @ [GoalGuard](https://goal-guard.vercel.app/) (10k+ Downloads) and [making youtube videos on whatever i learn!](https://www.youtube.com/@NotDefinitelyNotMe)
 
 - I’m currently researching **Electronics, Machine Learning at intersection of electronics/signals**
 
