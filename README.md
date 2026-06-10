@@ -1,11 +1,11 @@
-<h1 align="center">Hi 👋, I'm Unnath Chittimalla</h1>
+<h1 align="center">Hi, I'm Unnath Chittimalla</h1>
 <h3 align="center">A passionate developer currently curious about Electronics, ML/Statistics and GameDev!</h3>
 
-- 🔭 AppDev @ [GoalGuard](https://goal-guard.vercel.app/) and [making youtube videos on whatever i learn!](https://www.youtube.com/@NotDefinitelyNotMe)
+- AppDev @ [GoalGuard](https://goal-guard.vercel.app/) and [making youtube videos on whatever i learn!](https://www.youtube.com/@NotDefinitelyNotMe)
 
-- 🌱 I’m currently learning **Electronics, Machine Learning to help electronics**
+- I’m currently researching **Electronics, Machine Learning at intersection of electronics/signals**
 
-- 📫 How to reach me **unnath.chittimalla@iiitb.ac.in**
+- How to reach me **unnath.chittimalla@iiitb.ac.in**
 
 <h3 align="left">Connect with me:</h3>
 <p align="left">
