@@ -3,7 +3,7 @@
 
 - CoFounder @ [GoalGuard](https://goal-guard.vercel.app/) (10k+ Downloads) and [making youtube videos on whatever i learn!](https://www.youtube.com/@NotDefinitelyNotMe)
 
-- I’m currently researching **Electronics, Machine Learning at intersection of electronics/signals**
+- I’m currently researching **Electronics, Machine Learning at the intersection of electronics/signals**
 
 - How to reach me **unnath.chittimalla@iiitb.ac.in**
 
