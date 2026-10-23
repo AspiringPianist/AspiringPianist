@@ -22,7 +22,7 @@
 
 ### About
 
-I'm an undergraduate at IIIT Bangalore, still learning. I work on a mix of software (ML for biomedical signals, mobile apps, tooling) and hardware (RTL, FPGA, computer architecture), and I'm advised by [Dr. Madhav Rao](https://www.linkedin.com/in/madhavrrao/). I also make videos about what I learn on [YouTube](https://www.youtube.com/@NotDefinitelyNotMe).
+I'm an undergraduate at IIIT Bangalore, still learning. I work on a mix of software (ML for biomedical signals, mobile apps, tooling) and hardware (RTL, FPGA, computer architecture). I also make videos about what I learn on [YouTube](https://www.youtube.com/@NotDefinitelyNotMe).
 
 - **[Resume (1 page)](./Unnath_Chittimalla_Resume.pdf)** · **[CV (full)](./Unnath_Chittimalla_CV.pdf)**
 - Reach me at **unnath.chittimalla@iiitb.ac.in**
