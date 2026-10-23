@@ -2,7 +2,7 @@
 
 # Unnath Chittimalla
 
-### **RTL Design · FPGA Implementation · Computer Architecture · Hardware-Aware ML**
+### **Software · RTL & FPGA · Computer Architecture · Biomedical ML**
 
 *4th-Year Integrated M.Tech (B.Tech + M.Tech) in Electronics & Communication Engineering @ **IIIT Bangalore** ('28)*
 
@@ -20,18 +20,26 @@
 
 ---
 
-### ⚡ About Me
+### About
 
-- 🔬 **Undergraduate Researcher @ IIIT Bangalore:** Interested in **RTL design**, **FPGA implementation**, **computer architecture**, **PDN / DC-DC simulation automation**, and **physics-informed neural signal processing** (advised by [Dr. Madhav Rao](https://www.linkedin.com/in/madhavrrao/)).
-- 📄 **Quick Resume Links:**
-  - **[📄 Resume (1 page)](./Unnath_Chittimalla_Resume.pdf)**
-  - **[📑 CV (full)](./Unnath_Chittimalla_CV.pdf)**
-- 🚀 **Co-Founder @ [GoalGuard](https://goal-guard.vercel.app/) ([Google Play](https://play.google.com/store/apps/details?id=com.goalguard.app)):** Privacy-first distraction-blocking app with **20,000+ downloads across 20+ countries**; selected for **Y Combinator Startup School India**. I also make videos about what I learn on [YouTube](https://www.youtube.com/@NotDefinitelyNotMe).
-- 📬 **Reach me at:** **unnath.chittimalla@iiitb.ac.in**
+I'm an undergraduate at IIIT Bangalore, still learning. I work on a mix of software (ML for biomedical signals, mobile apps, tooling) and hardware (RTL, FPGA, computer architecture), and I'm advised by [Dr. Madhav Rao](https://www.linkedin.com/in/madhavrrao/). I also make videos about what I learn on [YouTube](https://www.youtube.com/@NotDefinitelyNotMe).
+
+- **[Resume (1 page)](./Unnath_Chittimalla_Resume.pdf)** · **[CV (full)](./Unnath_Chittimalla_CV.pdf)**
+- Reach me at **unnath.chittimalla@iiitb.ac.in**
 
 ---
 
-### 📚 IEEE Publications (IEEE EMBS BHI)
+## Software
+
+### Apps and tools
+
+- **[GoalGuard](https://goal-guard.vercel.app/) (Co-Founder)** · [Website](https://goal-guard.vercel.app/) · [Google Play](https://play.google.com/store/apps/details?id=com.goalguard.app): Privacy-first Android app for blocking distractions, with **20,000+ downloads** across 20+ countries. Selected for Y Combinator Startup School India.
+- **[relayBrain](https://github.com/prakrititz/relayBrain)** ([`prakrititz/relayBrain`](https://github.com/prakrititz/relayBrain), [website](https://relay-brain.vercel.app/)): Team project with [@prakrititz](https://github.com/prakrititz) (repo owner and main author) and other contributors. A coordination layer for AI coding agents (Claude Code, Cursor, Copilot, Codex, Antigravity) that shares file locks and live patches, so agents editing the same project do not overwrite each other, and keeps shared project memory in a FalkorDB graph (built for a WeMakeDevs x FalkorDB hackathon). I contributed to it as a collaborator (17 commits on GitHub).
+- **[`Distance-and-Direction-Estimation-from-IMU-Sensors`](https://github.com/AspiringPianist/Distance-and-Direction-Estimation-from-IMU-Sensors):** IMU-only 2D dead reckoning. Reduces integration drift with FFT-informed Butterworth filters, Kalman filtering and a Random Forest velocity regressor (under 2.5% distance error against GPS ground truth in my tests).
+
+### ML and biomedical signal processing
+
+**IEEE EMBS BHI papers**
 
 1. **[Adaptive Lead-Field Residual Learning for Sparse-to-Dense EEG Reconstruction](https://openreview.net/forum?id=ZgSLF1hkpt)** — ***First Author*, IEEE EMBS BHI 2026** · [[Code (`Sparse2Dense-EEG`)](https://github.com/AspiringPianist/Sparse2Dense-EEG)]
    - Sparse-to-dense EEG reconstruction without structural MRI: formulated EEG spatial super-resolution via a **Physics-Informed Residual Network** with learnable Boundary Element Method (BEM) conductivity calibration ($G_{\text{eff}}$) and forward-consistency regularization ($\mathcal{L}_{\text{fwd}}$).
@@ -40,35 +48,35 @@
    - Learns direct cortico-muscular mappings from non-invasive EEG (signal preprocessing + spatio-temporal modeling), replacing dual-modality EEG-EMG systems with a single EEG modality.
    - Implemented `RawSeq2SeqNet` (CNN-LSTM with 4th-order Butterworth/Hilbert DSP pipeline, Common Spatial Pattern filtering, and $\text{MSE}+\text{SoftDTW}$ alignment loss), achieving **2.11 ms real-time inference latency** ($r = 0.795$) across 204 trials.
 
+Code: [`Sparse2Dense-EEG`](https://github.com/AspiringPianist/Sparse2Dense-EEG) · [`emg-estimation`](https://github.com/AspiringPianist/emg-estimation)
+
+### Competitions and challenge projects
+
+- **Stage 2 Winner, [NCIIPC & Startup India AI Grand Challenge (2026)](https://ai-grand-challenge.in/) (Team Coders@IIITB):** PS-11 Hyperspectral Anomaly Detection using Robust PCA and GAN-BWGNN pipelines ([`hyperspectral_anomaly_detection`](https://github.com/AspiringPianist/hyperspectral_anomaly_detection)).
+- **1st Place, [ICDEC VDVWC Challenge (2024)](https://sites.google.com/view/vdvwc/home):** Modified YOLOv10 for adverse-weather vehicle detection ([`YOLOGANg_VehicleDetection`](https://github.com/AspiringPianist/YOLOGANg_VehicleDetection)).
+- **Top 10 Finalist, [Meta Pragati AI for Impact (2025)](https://www.linkedin.com/posts/unnath-chittimalla-08aaaa287_top-10-finalists-activity-7350479787292839939-Km27):** Worked on a low-latency multilingual RAG system.
+- **Top 11 Finalist, [ELCIA Tech Summit TRL-8 Sensor Challenge (2025)](https://elciatechsummit.in/hackathon):** Quantized on-device Random Forest motion-artifact filter ([`515Labs_VitalsTrack`](https://github.com/AspiringPianist/515Labs_VitalsTrack)).
+- **Teaching Assistant (Signals & Systems), IIIT Bangalore:** Tutorials, labs and grading for 150+ ECE undergraduates.
+
 ---
 
-### 🛠️ Selected Hardware, Architecture, EDA & FPGA Repositories
+## Hardware
+
+### RTL, FPGA and computer architecture
 
 | Repository | Domain & Tools | Summary |
 | :--- | :--- | :--- |
-| **[`ldpc-decoder-rtl`](https://github.com/AspiringPianist/ldpc-decoder-rtl)** | **RTL Design & Simulation** · `SystemVerilog` · `Verilator/Icarus` · `C++ golden model` | Layered min-sum **IEEE 802.11ad LDPC decoder** RTL ($N=672, Z=42$, all 4 code rates) following Milicevic & Gulak (IEEE TVLSI, 2018). Functional simulation only, checked bit-exact against a C++ golden model; **not synthesized** and no timing or area numbers are claimed. |
+| **[`tiny-gpu`](https://github.com/AspiringPianist/tiny-gpu)** | **Minimal GPU Architecture** · `SystemVerilog` · `Icarus Verilog` · `cocotb` | Studied and built a minimal GPU in **SystemVerilog**, following the public learning project [adam-maj/tiny-gpu](https://github.com/adam-maj/tiny-gpu): multi-core SIMD-style design, custom ISA, dispatcher, per-core ALU/LSU pipelines and memory controller; matrix addition & multiplication kernels simulated with **cocotb** (RTL design and simulation). Recorded a [no-code walkthrough video](https://www.youtube.com/watch?v=I2KRmAZkb30) on YouTube. |
 | **[`hybrid-cmos-reram-memory`](https://github.com/AspiringPianist/hybrid-cmos-reram-memory)** | **Hybrid CMOS-ReRAM & Memristor Solver** · `SkyWater 130nm` · `Cadence Virtuoso (GPDK 180nm)` | SkyWater 130nm-targeted Hybrid CMOS-ReRAM memory controller (RTL and simulation) with a Ready/Valid interface, Program-and-Verify FSM and 1.8V-to-3.3V level shifters, plus a Virtuoso memristor crossbar matrix solver (99%+ numerical accuracy in simulation). |
-| **[`GA-Assisted-DDR-RAM-Output-Capacitor-Decoupling-Design`](https://github.com/AspiringPianist/GA-Assisted-DDR-RAM-Output-Capacitor-Decoupling-Design)** | **PDN & Signal/Power Integrity** · `gem5` · `DRAMsim3` · `DRAMPower` · `LTspice` | **7-stage EDA automation pipeline** converting DDR4-3200 command traces (Rowhammer, streaming, random) into SPICE `.pwl` waveforms. Batch-LTspice **Genetic Algorithm** optimizing an **86-capacitor network** (51 VDDQ, 35 VTT) on an `LTM4632` buck regulator under **0.948 nH** via inductance, suppressing anti-resonance spikes up to **1.6 GHz** within JEDEC ripple specs ($\pm 60\text{ mV} / \pm 40\text{ mV}$). |
-| **[`openenv-dcdc-rl`](https://github.com/AspiringPianist/openenv-dcdc-rl)** | **Analog/Power EDA + RL** · `Python` · `NGspice/LTspice` · `OpenEnv` | **spiceRL:** Closed-loop SPICE reinforcement learning environment for automated DC-DC buck converter MOSFET sizing ($W_{\text{hi}}, W_{\text{lo}}$), switching frequency, and passive BOM optimization with Murata/Coilcraft parasitics. |
 | **[`obc-vector-inner-product`](https://github.com/AspiringPianist/obc-vector-inner-product)** & **[`4bit-baughwooley-multiplier`](https://github.com/AspiringPianist/4bit-baughwooley-multiplier)** | **FPGA DSP & Arithmetic** · `Verilog` · `Vivado STA` · `Artix-7` | Multiplier-less Q15 fixed-point inner-product DSP core using **Distributed Arithmetic (DA)** with **Offset Binary Coding (OBC)** for **50% LUT reduction**; plus a 4-stage pipelined **Baugh-Wooley multiplier** cutting critical-path logic delay by **2.1×** ($1.473\text{ ns} \rightarrow 0.704\text{ ns}$, $5 \rightarrow 2$ logic levels, **166.7 MHz**). |
 | **[`final_nn_fpga_tanh`](https://github.com/AspiringPianist/final_nn_fpga_tanh)** | **HLS & On-Chip Debug** · `Vitis HLS` · `VHDL` · `Vivado VIO/ILA` | 16-bit fixed-point quantized neural network ($784 \times 64 \times 10$ MLP with hardware `tanh`/ReLU) built with **Vitis HLS & VHDL**, tested on-board on an **Artix-7 (Basys 3)** FPGA using **Vivado VIO and ILA** logic analyzers. |
-| **[`tiny-gpu`](https://github.com/AspiringPianist/tiny-gpu)** | **Minimal GPU Architecture** · `SystemVerilog` · `Icarus Verilog` · `cocotb` | Studied and built a minimal GPU in **SystemVerilog**, following the public learning project [adam-maj/tiny-gpu](https://github.com/adam-maj/tiny-gpu): multi-core SIMD-style design, custom ISA, dispatcher, per-core ALU/LSU pipelines and memory controller; matrix addition & multiplication kernels simulated with **cocotb** (RTL design and simulation). Recorded a [no-code walkthrough video](https://www.youtube.com/watch?v=I2KRmAZkb30) on YouTube. |
+| **[`GA-Assisted-DDR-RAM-Output-Capacitor-Decoupling-Design`](https://github.com/AspiringPianist/GA-Assisted-DDR-RAM-Output-Capacitor-Decoupling-Design)** | **PDN & Signal/Power Integrity** · `gem5` · `DRAMsim3` · `DRAMPower` · `LTspice` | **7-stage EDA automation pipeline** converting DDR4-3200 command traces (Rowhammer, streaming, random) into SPICE `.pwl` waveforms. Batch-LTspice **Genetic Algorithm** optimizing an **86-capacitor network** (51 VDDQ, 35 VTT) on an `LTM4632` buck regulator under **0.948 nH** via inductance, suppressing anti-resonance spikes up to **1.6 GHz** within JEDEC ripple specs ($\pm 60\text{ mV} / \pm 40\text{ mV}$). |
+| **[`ldpc-decoder-rtl`](https://github.com/AspiringPianist/ldpc-decoder-rtl)** | **RTL Design & Simulation** · `SystemVerilog` · `Verilator/Icarus` · `C++ golden model` | SystemVerilog RTL and functional simulation of a layered min-sum decoder; work in progress. |
+| **[`openenv-dcdc-rl`](https://github.com/AspiringPianist/openenv-dcdc-rl)** | **Analog/Power EDA + RL** · `Python` · `NGspice/LTspice` · `OpenEnv` | **spiceRL:** small OpenEnv RL environment for sizing buck converter MOSFETs. |
 
 ---
 
-### 🏆 Product Engineering, Embedded Systems & National Honors
-
-- 🏆 **Stage 2 Winner, [NCIIPC & Startup India AI Grand Challenge (2026)](https://ai-grand-challenge.in/) (Team Coders@IIITB):** PS-11 Hyperspectral Anomaly Detection ([`hyperspectral_anomaly_detection`](https://github.com/AspiringPianist/hyperspectral_anomaly_detection)).
-- 📱 **[GoalGuard — Co-Founder](https://goal-guard.vercel.app/) ([Play Store](https://play.google.com/store/apps/details?id=com.goalguard.app)):** Privacy-first Android distraction-blocking app with **20,000+ downloads across 20+ countries**; selected for **Y Combinator Startup School India**.
-- 🧭 **[`Distance-and-Direction-Estimation-from-IMU-Sensors`](https://github.com/AspiringPianist/Distance-and-Direction-Estimation-from-IMU-Sensors):** Reduced IMU double-integration drift for 2D dead reckoning using FFT-informed **Butterworth filters**, **Kalman filtering**, and a Random Forest velocity regressor (**<2.5% distance error** vs GPS ground truth).
-- 🥇 **1st Place (Among 5,000+ Participants), [ICDEC VDVWC Challenge (2024)](https://sites.google.com/view/vdvwc/home):** Ranked 1st with a modified YOLOv10 for adverse-weather vehicle detection ([`YOLOGANg_VehicleDetection`](https://github.com/AspiringPianist/YOLOGANg_VehicleDetection)).
-- 🏅 **Top 10 Finalist (Among 10,000+ Teams), [Meta Pragati AI for Impact (2025, New Delhi)](https://www.linkedin.com/posts/unnath-chittimalla-08aaaa287_top-10-finalists-activity-7350479787292839939-Km27):** Worked on a low-latency multilingual RAG system.
-- 🏅 **Top 11 Finalist, [ELCIA Tech Summit TRL-8 Sensor Challenge (2025)](https://elciatechsummit.in/hackathon-2025/):** Implemented a quantized on-device Random Forest motion artifact filter ([`515Labs_VitalsTrack`](https://github.com/AspiringPianist/515Labs_VitalsTrack)).
-- 🎓 **Teaching Assistant (Signals & Systems), IIIT Bangalore:** Tutorials, labs, and grading for 150+ ECE undergraduates.
-
----
-
-### 🧰 Technical Stack
+### Technical stack
 
 - **HDLs & Computer Architecture:** `SystemVerilog` · `Verilog` · `VHDL` · `Vitis HLS` · `Custom GPU ISA` · `Pipelining`
 - **EDA & FPGA Tools:** `Cadence Virtuoso (180nm GPDK)` · `Xilinx Vivado (OOC Synthesis, P&R, STA, VIO/ILA)` · `SkyWater 130nm PDK`
