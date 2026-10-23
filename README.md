@@ -44,7 +44,7 @@ Privacy-first Android app for blocking distractions, with <b>20,000+ downloads</
 <sub><a href="https://goal-guard.vercel.app/">Website</a> · <a href="https://play.google.com/store/apps/details?id=com.goalguard.app">Google Play</a></sub><br>
 <br>
 <b><a href="https://github.com/prakrititz/relayBrain">relayBrain</a></b><br>
-Team project with <a href="https://github.com/prakrititz">@prakrititz</a> (repo owner and main author) and other contributors. A coordination layer for AI coding agents (Claude Code, Cursor, Copilot, Codex, Antigravity) that shares file locks and live patches, so agents editing the same project do not overwrite each other, and keeps shared project memory in a FalkorDB graph (built for a WeMakeDevs x FalkorDB hackathon). I contributed as a collaborator (17 commits on GitHub).<br>
+Team project with <a href="https://github.com/prakrititz">@prakrititz</a> and other contributors. A coordination layer for AI coding agents (Claude Code, Cursor, Copilot, Codex, Antigravity) that shares file locks and live patches, so agents editing the same project do not overwrite each other, and keeps shared project memory in a FalkorDB graph (built for a WeMakeDevs x FalkorDB hackathon).<br>
 <sub><a href="https://github.com/prakrititz/relayBrain"><code>prakrititz/relayBrain</code></a> · <a href="https://relay-brain.vercel.app/">website</a></sub><br>
 <br>
 <b><a href="https://github.com/AspiringPianist/Distance-and-Direction-Estimation-from-IMU-Sensors"><code>Distance-and-Direction-Estimation-from-IMU-Sensors</code></a></b><br>
