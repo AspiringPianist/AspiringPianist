@@ -58,7 +58,7 @@
 
 ### 🏆 Product Engineering, Embedded Systems & National Honors
 
-- 🏆 **Stage 2 Winner, [NCIIPC & Startup India AI Grand Challenge (2026)](https://ai-grand-challenge.in/) (Team Coders@IIITB):** PS-11 Hyperspectral Anomaly Detection, using Robust PCA and GAN-BWGNN pipelines ([`hyperspectral_anomaly_detection`](https://github.com/AspiringPianist/hyperspectral_anomaly_detection)).
+- 🏆 **Stage 2 Winner, [NCIIPC & Startup India AI Grand Challenge (2026)](https://ai-grand-challenge.in/) (Team Coders@IIITB):** PS-11 Hyperspectral Anomaly Detection ([`hyperspectral_anomaly_detection`](https://github.com/AspiringPianist/hyperspectral_anomaly_detection)).
 - 📱 **[GoalGuard — Co-Founder](https://goal-guard.vercel.app/) ([Play Store](https://play.google.com/store/apps/details?id=com.goalguard.app)):** Privacy-first Android distraction-blocking app with **20,000+ downloads across 20+ countries**; selected for **Y Combinator Startup School India**.
 - 🧭 **[`Distance-and-Direction-Estimation-from-IMU-Sensors`](https://github.com/AspiringPianist/Distance-and-Direction-Estimation-from-IMU-Sensors):** Reduced IMU double-integration drift for 2D dead reckoning using FFT-informed **Butterworth filters**, **Kalman filtering**, and a Random Forest velocity regressor (**<2.5% distance error** vs GPS ground truth).
 - 🥇 **1st Place (Among 5,000+ Participants), [ICDEC VDVWC Challenge (2024)](https://sites.google.com/view/vdvwc/home):** Ranked 1st with a modified YOLOv10 for adverse-weather vehicle detection ([`YOLOGANg_VehicleDetection`](https://github.com/AspiringPianist/YOLOGANg_VehicleDetection)).
