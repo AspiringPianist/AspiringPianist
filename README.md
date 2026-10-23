@@ -62,7 +62,7 @@ IMU-only 2D dead reckoning. Reduces integration drift with FFT-informed Butterwo
 <br>
 <b><i>Competitions and challenge projects</i></b><br>
 <b>Stage 2 Winner, <a href="https://ai-grand-challenge.in/">NCIIPC &amp; Startup India AI Grand Challenge (2026)</a></b><br>
-(Team Coders@IIITB) PS-11 Hyperspectral Anomaly Detection using Robust PCA and GAN-BWGNN pipelines.<br>
+(Team Coders@IIITB) PS-11 Hyperspectral and Thermal Anomaly Detection pipelines.<br>
 <sub><a href="https://github.com/AspiringPianist/hyperspectral_anomaly_detection"><code>hyperspectral_anomaly_detection</code></a></sub><br>
 <br>
 <b>1st Place, <a href="https://sites.google.com/view/vdvwc/home">ICDEC VDVWC Challenge (2024)</a></b><br>
